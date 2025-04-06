@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    background-color: hsl(227, 75%, 14%);
+    height: 100vh;
+    margin: 0;
+    padding-right: 150px;
+    padding-left: 150px;
+    align-items: center;
+
+    padding-top: 50px;
+  }
+  .head-box{
+    display: flex;
+    align-items: center;
+    background-color:hsl(225, 23%, 24%) ;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+  }
+ 
+  .icon-sun{
+    background-color: hsl(226, 11%, 37%);
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  h1{
+   color: white;
+   font-size: 50px;
+  }
+  .head-div-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mini-div{
+    display: flex;
+    gap: 10px;
+  }
+  .head{
+    background-color: hsl(226, 11%, 37%);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+   padding: 7px;
+    font-size: 21px;
+    
+    
+  }
+  .lens{
+    display: flex;
+    gap: 20px;
+  }
+  .display-lens{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+    align-items: center;
+    
+  }
+  .main-box{
+    background-color: hsl(225, 23%, 24%);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 550px;
+    height: 200px;
+  }
+  .remove{
+    border-radius: 20px;
+    background-color: hsl(226, 25%, 17%);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+  }
+  .greed-container {
+    
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    left: 370px;
+    bottom: 100px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide the default checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Style the slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:hsl(226, 25%, 17%) ;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+/* Style the slider when checked */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+/* When the checkbox is checked, change background and slider position */
+input:checked + .slider {
+    background-color:hsl(3, 86%, 64%);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
